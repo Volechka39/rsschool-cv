@@ -4,6 +4,7 @@
 
 - telefon: +375291403495
 - e-mail: Volechka2789@gmail.com
+- nickname GitHub: Volechka39 (Discord: Volechka39:#2294)
 
 ## marital status:
 
