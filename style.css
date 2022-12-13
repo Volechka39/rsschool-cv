@@ -12,6 +12,17 @@ a {
   background-color: #a59a81;
 }
 
+.footer {
+  border: 1px solid #a59a81;
+  background-color: #a59a81;
+}
+
+.logo {
+  background: no-repeat 0 0;
+  position: absolute;
+    
+    }
+
 * {
   box-sizing: border-box;
 }
@@ -60,6 +71,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 .nav-list {
   list-style: none;
 }
@@ -88,10 +101,6 @@ h1 {
   cursor: all-scroll;
 }
 
-h2 {
-  color: #4d2323;
-}
-
 .section {
   width: 50%;
 }
@@ -115,14 +124,12 @@ h2 {
     letter-spacing: 1px;
     color: brown;
   }
-}
 
 h2 {
   color: #a5611d;
 }
 
 .section-contacts::before {
-  content: "";
   position: absolute;
   top: 8px;
   left: 0px;
