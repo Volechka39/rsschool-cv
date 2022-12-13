@@ -1,5 +1,5 @@
 
-https://Volechka39.github.io/rsschool-cv/cv
+https://Volechka39.github.io/rsschool-cv
 
 
 
