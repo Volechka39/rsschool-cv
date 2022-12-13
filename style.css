@@ -17,11 +17,16 @@ a {
   background-color: #a59a81;
 }
 
-.logo {
+.container-footer {
   background: no-repeat 0 0;
-  position: absolute;
-    
-    }
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  margin: 0%;
+  display: flex;
+  max-width: 1440px;
+  
+}
 
 * {
   box-sizing: border-box;
@@ -56,22 +61,26 @@ body {
 .img {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 10px, 0.6);
+
 }
+
 body {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+  color: black;
 }
 
 .section-code {
   font-size: 18px;
 }
 .container {
-  max-width: 800px;
+  max-width: 1440px;
   margin: 0 auto;
 }
-
-
 
 .nav-list {
   list-style: none;
@@ -82,11 +91,7 @@ body {
   line-height: 50px;
   transition: 0.3s;
 }
-.section-item a {
-  color: #829985;
-  text-decoration: none;
-  transition: color 0.5s;
-}
+
 .section-item a:hover {
   color: #4d2323;
 }
@@ -94,6 +99,8 @@ body {
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -101,40 +108,82 @@ h1 {
   cursor: all-scroll;
 }
 
+  
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+  color: black;
+}
+
 .section {
-  width: 50%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: brown;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+  padding-bottom: 35px;
+  }
+
+.section-contacts{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  }
+  .section-summary{
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+
+.section-code{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
+.section-skills{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.section-courses{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.section-projects{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.section-education{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.section-english{
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+h2 {
+  color: #743e09;
 }
 
 @media (max-width: 768px) {
   .section {
     width: 100%;
   }
-
-  body {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 2;
-    color: black;
-  }
-
-  .section {
-    font-size: 20px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    color: brown;
-  }
-
-h2 {
-  color: #a5611d;
-}
-
-.section-contacts::before {
-  position: absolute;
-  top: 8px;
-  left: 0px;
-  width: 10px;
-  height: 10px;
-  border: 1px solid #829985;
-  border-radius: 50%;
 }
