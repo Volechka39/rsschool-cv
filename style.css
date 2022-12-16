@@ -27,15 +27,16 @@ a {
 .container-footer {
   background: no-repeat 0 0;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
   display: flex;
-  margin: 0%;
-  display: flex;
+  margin: 0 auto;
   max-width: 1440px;
 }
 
 * {
   box-sizing: border-box;
+  color:black;
 }
 
 html {
@@ -46,6 +47,8 @@ html {
   display: flex;
   flex-wrap: wrap;
   flex: none;
+  padding-left: 0;
+  color: #ffffff;
 }
 
 body {
@@ -83,11 +86,13 @@ body {
 
 .section-code {
   font-size: 18px;
-  }
+}
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+
 
 .nav-list {
   list-style: none;
