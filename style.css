@@ -1,6 +1,11 @@
 @font-face {
-font-family: Roboto;
-src: url("assets/fonts/Roboto.ttf");
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto.ttf");
+}
+
+#burger,
+[for="burger"] {
+  display: none;
 }
 
 a {
@@ -22,7 +27,7 @@ a {
 .container-footer {
   background: no-repeat 0 0;
   text-align: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   display: flex;
   margin: 0%;
   display: flex;
@@ -64,7 +69,6 @@ body {
 .img {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 10px, 0.6);
-
 }
 
 body {
@@ -79,7 +83,7 @@ body {
 
 .section-code {
   font-size: 18px;
-}
+  }
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -112,8 +116,6 @@ h1 {
   cursor: all-scroll;
 }
 
-  
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -137,58 +139,59 @@ body {
   border-bottom: 10px solid #f4cda8;
 }
 
-.section-contacts{
-  width: calc(50% - 20px);
-  padding: 10px;
-  padding-bottom: 35px;
-  border-bottom: 2px solid #743e09; 
-}
-.section-summary{
-    width: calc(50% - 20px);
-    padding: 10px;
-    padding-bottom: 35px;
-    border-bottom: 2px solid #743e09;
-   }
-
-.section-code{
+.section-contacts {
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
   border-bottom: 2px solid #743e09;
-  }
-
-.section-skills{
+}
+.section-summary {
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
   border-bottom: 2px solid #743e09;
 }
 
-.section-courses{
+.section-code {
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
   border-bottom: 2px solid #743e09;
 }
 
-.section-projects{
+.section-skills {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 2px solid #743e09;
+  display: flex;
+}
+
+.section-courses {
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
   border-bottom: 2px solid #743e09;
 }
 
-.section-education{
+.section-projects {
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
-  }
+  border-bottom: 2px solid #743e09;
+}
 
-.section-english{
+.section-education {
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
- }
+}
+
+.section-english {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+}
 
 h2 {
   color: #743e09;
